@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Calculation</title>
+</head>
+<body>
+    <h1>Pick a number, then add each digit of the number.</h1>
+    <h2>Subtract the sum to the original number, and hide 1 digit from the difference.</h2>
+
+    <form id="calculationForm">
+        <label for="numberInput">Enter the unhidden numbers:</label>
+        <input type="text" id="numberInput" required>
+        <button type="submit">Calculate</button>
+    </form>
+
+    <p>Entered number: <span id="resultNumber"></span></p>
+    <p>Sum of unhidden numbers: <span id="resultSum"></span></p>
+    <p>Number of digits: <span id="resultCount"></span></p>
+    <p>Answer: <span id="resultAnswer"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
